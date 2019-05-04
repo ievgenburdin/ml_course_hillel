@@ -70,6 +70,8 @@ set_pandas()
 conversions_df = conversions_df.astype({'seen count': float, 'made purchase': int, 'followed ad': int})
 
 conversion_df = conversions_df[['color scheme', 'followed ad', 'made purchase']].groupby('color scheme').mean()
+print(conversion_df)
+conversion_df = conversions_df[['color scheme', 'followed ad', 'made purchase']].groupby('color scheme').mean()
 
 print(conversion_df)
 print(conversions_df)
