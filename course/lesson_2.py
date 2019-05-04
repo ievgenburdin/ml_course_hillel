@@ -1,5 +1,3 @@
-from pprint import pprint
-
 import pandas as pd
 
 csv_path = "/home/ievgen/PycharmProjects/ML_course_hillel/course/data/DataSet_1.csv"
